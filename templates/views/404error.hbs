@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerLinks}}
+</head>
+
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errorimg">
+                            <img src="images/404.jpg" alt="Saby" class="img-fluid" title="thapa technical">
+                        </figure>
+
+
+                        <p>Welcome to Weather App</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/" target="_blank"><button>Go Back</button></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        {{>footer}}
+    </div>
+</body>
+
+</html>
