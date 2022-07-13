@@ -13,4 +13,4 @@ Weather API is being used for data fetching and filtering purposes.
 Install all the required packages as mentioned in package.json\
 Change directory to source\
 Enter command\
-### 'nodemon app.js'
+### nodemon app.js
